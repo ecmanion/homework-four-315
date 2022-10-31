@@ -1,0 +1,30 @@
+.form-outside{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        flex-direction: column;
+        margin-top: 10%;
+        h1{
+            margin: 3%;
+        }
+        input{
+            margin-bottom: 2%;
+            margin-top: 1%;
+            width: 250px;
+        }
+        #createSubmit{
+            background-color: lightgreen;
+        }
+        button{
+            width: 250px;
+            background-color: lightblue;
+        }
+}
+}

@@ -1,0 +1,17 @@
+.home{
+    width: 100%;
+    height: auto;
+    .home-image{
+        height: 800px;
+        width: 100%;
+        background-image: url("../images/home-hero.jpg");
+        object-fit: cover;
+        text-align: center;
+        .home-title{
+            top: 50%;
+            transform: translate(0%,60%);
+            height: 500px;
+            
+        }
+    }
+}
